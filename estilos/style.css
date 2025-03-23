@@ -82,8 +82,9 @@ body{
     
     background-color: #2F4F4F;
     width: 90%;
-    height: 550px;
+    height: 600px;
     border-radius: 20px;
+    
 }
 .conteudo-secundario-titulo{
     margin-bottom: 30px;
@@ -171,8 +172,8 @@ body{
 }
 .projetos-cards{
     background-color: #2D82B7;
-    width: 90%;
-    height: 350px;
+    width: 80%;
+    height: 380px;
     border-radius: 14px; 
 
 }
