@@ -207,69 +207,75 @@ body{
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 60px;
     background-color: #1B2C37;
-    height: 392px;
+    height: 300px;
     background-image: url('../imagens/logorodape.png');
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 200px;
     color: #fff2e7;
+    padding-top: 30px;
 }
 
 .rodape-titulo{
     font-size: 22px;
     font-weight: 700px;
     color: #ffffff;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    
 }
 
 .rodape-links {
-    display: flex;
-    flex-flow: row nowrap;  
-    gap: 110px;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   width: 100%;
+   gap: 50px;
+      
 }
 
 .rodape-links-contato{
     display: flex;
     flex-flow: column;
-    gap: 30px;
-    
     
 }
-.rodape-links-contato-fone{
+
+.rodape-links-contato-phone{
     display: flex;
-    align-items: center;
     gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .rodape-links-contato-email{
     display: flex;
-    align-items: center;
     gap: 10px;
-
+    align-items: center;
 }
+
 .rodape-links-social{
     display: flex;
-    flex-flow: column;  
-    gap: 60px;
-    
-    
+    flex-flow: column;   
 }
 
 .rodape-links-social-git{
     display: flex;
-    align-items: center;
     gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .rodape-links-social-linkedin{
     display: flex;
-    align-items: center;
     gap: 10px;
+    align-items: center;
 }
 .item-link{
     color: #ffffff;
     font-size: 18px;
+
 }
 
+.item-link:hover{
+    text-decoration: underline;
+}
