@@ -82,7 +82,7 @@ body{
     
     background-color: #2F4F4F;
     width: 90%;
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     
 }
@@ -120,7 +120,7 @@ body{
     background-color: #ffffff;
     color: #0d0d0d;
     width: 80%;
-    height: 400px;
+    height: auto;
     border-radius: 14px;   
 }
 
@@ -173,7 +173,7 @@ body{
 .projetos-cards{
     background-color: #2D82B7;
     width: 80%;
-    height: 400px;
+    height: auto;
     border-radius: 14px; 
 
 }
