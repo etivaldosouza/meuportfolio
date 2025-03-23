@@ -172,7 +172,7 @@ body{
 .projetos-cards{
     background-color: #2D82B7;
     width: 90%;
-    height: 300px;
+    height: 350px;
     border-radius: 14px; 
 
 }
@@ -192,13 +192,15 @@ body{
     line-height: 28px;
     margin: 30px;
     font-size: 18px;
-    
 }
 
 .projetos-paragrafo > a{
     font-size: 18px;
     font-weight: 400;
+    color: burlywood;
+    font-size: 20px;
 }
+
 
 .rodape{
 
