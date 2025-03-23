@@ -12,12 +12,41 @@ grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    .conteudo-principal-titulo{
+        font-size: 35px;
+    }
+    .conteudo-principal-paragrafo{
+        font-size: 20px;
+    }
+
+    .conteudo-secundario-titulo{
+        font-size: 22px;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-size: 20px;
+    }
+    .conteudo-secundario-cards-titulo{
+        font-size: 22px;
+    }
+    .conteudo-secundario-cards-paragrafo{
+        font-size:20px;
+    }
+
+     .projetos-cards > h3{
+        font-size: 22px;
+    }
+
+    .projetos-paragrafo{
+        font-size: 20px;
+    }
+
    
     .conteudo-secundario-cards{
         width: 80%;
-        height: 400px;
+        height: 350px;
         position: relative;
-        bottom:200px;
+        bottom:100px;
     }
     .projetos-cards{
         width: 80%;
