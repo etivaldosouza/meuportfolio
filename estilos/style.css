@@ -226,24 +226,49 @@ body{
 
 .rodape-links {
     display: flex;
-    gap: 50px;
-    margin-left: 70px;
+    flex-flow: row nowrap;
+    margin-left: 200px;
+    gap: 100px;
+    
 }
 
 .rodape-links-contato{
     display: flex;
     flex-flow: column;
-    gap: 30px;
-    
+    gap: 20px;
+        
+}
+.rodape-links-contato-fone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
+.rodape-links-contato-email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
 .rodape-links-social{
     display: flex;
-    flex-flow: column;
-    gap: 30px;
+    flex-flow: column;  
+    gap: 40px;
 }
 
+.rodape-links-social-git{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape-links-social-linkedin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .item-link{
     color: #ffffff;
     font-size: 18px;
 }
+
