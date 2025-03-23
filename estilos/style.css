@@ -73,9 +73,9 @@ body{
 }
 .conteudo-principal-paragrafo{
     text-align: center;
-    line-height: 1.5em;
+    line-height: 28px;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .container{
@@ -133,11 +133,8 @@ body{
 .conteudo-secundario-cards-paragrafo{
     text-align: justify;
     line-height: 28px;
-    margin: 30px;
-    
-    font-size: 18px;
-   
-    
+    margin: 30px;   
+    font-size: 18px; 
     
 }
 
