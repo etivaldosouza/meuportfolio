@@ -161,6 +161,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -170,7 +171,7 @@ body{
 }
 .projetos-cards{
     background-color: #2D82B7;
-    width: 300px;
+    width: 90%;
     height: 300px;
     border-radius: 14px; 
 
@@ -188,8 +189,9 @@ body{
 
 .projetos-paragrafo{
     text-align: justify;
-    line-height: 1.5em;
-    margin: 10px;
+    line-height: 28px;
+    margin: 30px;
+    font-size: 18px;
     
 }
 
