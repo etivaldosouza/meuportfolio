@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+--------------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablete: 768px até 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+   
+    .conteudo-secundario-cards{
+        width: 80%;
+        height: 400px;
+        position: relative;
+        bottom:200px;
+    }
+    .projetos-cards{
+        width: 80%;
+        height: 400px;
+
+    }
+}
+
