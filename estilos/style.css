@@ -82,7 +82,7 @@ body{
     
     background-color: #2F4F4F;
     width: 90%;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
 }
 .conteudo-secundario-titulo{
@@ -96,10 +96,10 @@ body{
 
 .conteudo-secundario-paragrafo{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 28px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .cards-secundario{
@@ -110,7 +110,7 @@ body{
     gap:15px;
     position: relative;
     bottom: 100px;
-    font-size: 15px;
+   
     
 }
 
@@ -127,12 +127,14 @@ body{
     text-align: center;
     padding: 10px;  
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .conteudo-secundario-cards-paragrafo{
     text-align: justify;
-    line-height: 27px;
-    margin: 25px;
+    line-height: 28px;
+    margin: 30px;
+    font-size: 18px;
     
 }
 
