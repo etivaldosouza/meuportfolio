@@ -110,7 +110,7 @@ body{
     flex-flow: column;
     gap:15px;
     position: relative;
-    bottom: 100px;
+    bottom: 80px;
    
     
 }
@@ -135,7 +135,10 @@ body{
     text-align: justify;
     line-height: 28px;
     margin: 30px;
+    
     font-size: 18px;
+   
+    
     
 }
 
@@ -193,6 +196,7 @@ body{
     line-height: 28px;
     margin: 30px;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .projetos-paragrafo > a{
