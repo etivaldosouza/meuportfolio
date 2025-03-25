@@ -13,9 +13,7 @@ grandes telas: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     
-    .conteudo{
-        width: 80%;
-    }
+
     .conteudo-principal-titulo{
         font-size: 35px;
     }
