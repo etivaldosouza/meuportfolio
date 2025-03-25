@@ -68,14 +68,14 @@ body{
     margin-top: 50px;
     margin-bottom: 30px;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .conteudo-principal-paragrafo{
     text-align: center;
     line-height: 28px;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     width: 90%;
 }
 
@@ -92,7 +92,7 @@ body{
     text-align: center;
     margin: 20px;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
    
 }
 
@@ -101,7 +101,7 @@ body{
     line-height: 28px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .cards-secundario{
@@ -128,14 +128,14 @@ body{
     text-align: center;
     padding: 10px;  
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .conteudo-secundario-cards-paragrafo{
     text-align: justify;
     line-height: 28px;
     margin: 30px;   
-    font-size: 15px; 
+    font-size: 14px; 
     
 }
 
@@ -188,7 +188,7 @@ body{
     text-align: justify;
     line-height: 28px;
     margin: 30px;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 
@@ -196,7 +196,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     color: burlywood;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
