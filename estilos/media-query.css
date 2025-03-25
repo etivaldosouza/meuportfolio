@@ -66,7 +66,7 @@ grandes telas: acima de 1200px
 @media screen and (min-width: 992px) {
     .container{
         max-width: 1500px;
-        width: 100%;
+        width: 95%;
         
     }
 
@@ -102,9 +102,7 @@ grandes telas: acima de 1200px
         line-height: 35px;
         margin-left: 60px;
         margin-right: 60px;
-        text-indent: 40px;
-       
-        
+        text-indent: 40px;       
         
     }
 }
