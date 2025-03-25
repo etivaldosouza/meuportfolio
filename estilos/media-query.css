@@ -12,6 +12,8 @@ grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    
+
     .conteudo-principal-titulo{
         font-size: 35px;
     }
@@ -66,14 +68,14 @@ grandes telas: acima de 1200px
 @media screen and (min-width: 992px) {
     .container{
         max-width: 1500px;
-        width: 95%;
-        
+        width: 95%;        
     }
 
     .cards-secundario{
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
+        
     }
     .conteudo-secundario-cards {
         width: 30%;
