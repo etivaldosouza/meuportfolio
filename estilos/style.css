@@ -171,8 +171,11 @@ body{
     width: 80%;
     height: auto;
     border-radius: 14px; 
-
+    background-image: url('../imagens/Robot.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
+
 .projetos-titulo-principal{
     text-align: center;
     margin-bottom: 60px;
@@ -198,7 +201,6 @@ body{
     color: burlywood;
     font-size: 18px;
 }
-
 
 .rodape{
 

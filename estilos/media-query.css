@@ -58,11 +58,7 @@ grandes telas: acima de 1200px
         align-items: center;
         gap: 10px;
     }
-    .projetos-cards{
-        width: 80vw;
-        height: auto;
-         
-    }
+
 }  
 
 @media screen and (min-width: 992px) {
@@ -106,5 +102,22 @@ grandes telas: acima de 1200px
         margin-right: 60px;
         text-indent: 40px;       
         
+    }
+    .projetos-container-cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; 
+        align-items: center; 
+        width: 90%;
+        height: auto;
+        margin: auto;
+        
+           
+    }
+
+    .projetos-cards{
+        width: 30%;
+        max-width: 500px;
+        height: 380px;
     }
 }
