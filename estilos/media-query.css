@@ -43,15 +43,68 @@ grandes telas: acima de 1200px
 
    
     .conteudo-secundario-cards{
-        width: 80%;
-        height: 350px;
+        width: 75vw;
+        height: 300px;
         position: relative;
         bottom:100px;
     }
-    .projetos-cards{
-        width: 80%;
-        height: 400px;
 
+    .projetos-container-cards{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .projetos-cards{
+        width: 80vw;
+        height: auto;
+         
+    }
+}  
+
+@media screen and (min-width: 992px) {
+    .container{
+        max-width: 1500px;
+        width: 100%;
+        
+    }
+
+    .cards-secundario{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    .conteudo-secundario-cards {
+        width: 30%;
+        max-width: 500px;
+        height: 350px;
+        position: relative;
+        bottom: 100px;
+        
+    }
+    .conteudo-principal-titulo{
+        font-size: 48px;
+    }
+    .conteudo-principal-paragrafo{
+        font-size: 28px;
+        line-height: 38px;
+        width: 70%;
+    }
+
+    .conteudo-secundario-titulo{
+        font-size: 30px;
+        margin: 50px;
+         
+    }
+    .conteudo-secundario-paragrafo{
+        font-size: 22px;
+        line-height: 35px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-indent: 40px;
+       
+        
+        
     }
 }
-

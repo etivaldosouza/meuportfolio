@@ -145,9 +145,7 @@ body{
     flex-flow: column;
     align-items: center;
     gap: 60px;
-    width:90%;
-    
-    
+    width:80%;   
 }
 
 .skill-img{
@@ -158,14 +156,12 @@ body{
     margin-bottom: 100px;
 }
 
-.projetos{
+.projetos-container-cards{
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: column;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
-
 .skill-titulo{
     font-size: 38px;
     font-family: "Ubuntu Mono", monospace;
@@ -192,7 +188,7 @@ body{
     text-align: justify;
     line-height: 28px;
     margin: 30px;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 
