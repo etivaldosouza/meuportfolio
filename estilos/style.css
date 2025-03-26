@@ -35,7 +35,6 @@ body{
 .fa-bars:hover{
     color: #0d0d0d;
     background-color: #ffffff;
-    
     text-align: center;
 }
 
@@ -46,6 +45,11 @@ body{
     
 }
 
+.containerBurguer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+}
 
 .cabecalho-menu-item{
     color: #ffffff;
