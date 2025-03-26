@@ -48,7 +48,8 @@ body{
 .containerBurguer{
     display: flex;
     flex-flow: column;
-    align-items: center;  
+    align-items: center; 
+    justify-content: center; 
 }
 
 .cabecalho-menu-item{
