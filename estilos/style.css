@@ -27,16 +27,15 @@ body{
 }
 
  .fa-bars{
-
-    
     align-items: center;
     cursor: pointer;
 }
 .fa-bars:hover{
-    color: #0d0d0d;
-    background-color: #ffffff;
-
+    color: black;
+    background-color: white;
+    transform: translate(-5px, -5px);
     text-align: center;
+    width: 40px;
 }
 
 .cabecalho-menu{
@@ -45,7 +44,11 @@ body{
     gap: 10px;
     
 }
-
+.cabecalho-menu-item:hover{
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
+    color: blue;
+}
 .containerBurguer{
     display: flex;
     flex-flow: column;
