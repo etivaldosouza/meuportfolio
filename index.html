@@ -153,7 +153,13 @@
         b.addEventListener('click', clicar)
 
         function clicar(){
-            menu.style.display = 'flex'
+            
+            if(menu.style.display == 'flex'){
+                menu.style.display = 'none'
+            } else{
+                menu.style.display = 'flex'
+            }
+                        
         }
     </script>
 </body>
