@@ -13,7 +13,14 @@ grandes telas: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     
-
+    #burguer{
+        display: none;
+    }
+    .cabecalho-menu{
+        display: flex; /* faz sumir o menu*/
+        flex-flow: row nowrap;
+        gap: 10px;  
+    }
     .conteudo-principal-titulo{
         font-size: 35px;
     }
@@ -67,11 +74,31 @@ grandes telas: acima de 1200px
         width: 95%;        
     }
 
+    #burguer{
+        display: none;
+    }
+    .cabecalho-menu{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 50px;  
+    }
+
+    .cabecalho-menu-item{
+        font-size: 25px;
+    }
+    .cabecalho-menu-item:hover{
+        background-color: white;
+        color: black;
+        width: auto;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        text-decoration: underline blue;
+    }
     .cards-secundario{
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        
     }
     .conteudo-secundario-cards {
         width: 30%;
@@ -95,13 +122,31 @@ grandes telas: acima de 1200px
         margin: 50px;
          
     }
+
     .conteudo-secundario-paragrafo{
-        font-size: 22px;
+        font-size: 25px;
         line-height: 35px;
         margin-left: 60px;
         margin-right: 60px;
         text-indent: 40px;       
         
+    }
+    .conteudo-secundario-cards-titulo{
+        font-size: 28px;
+    }
+
+    .conteudo-secundario-cards-paragrafo{
+        font-size:20px;
+    }
+
+    .projetos-titulo{
+        font-size: 28PX;
+    }
+    .projetos-paragrafo{
+        font-size: 22px;
+    }
+    .projetos-paragrafo > a{
+        font-size: 23px;
     }
     .projetos-container-cards{
         display: flex;
@@ -119,5 +164,14 @@ grandes telas: acima de 1200px
         width: 30%;
         max-width: 500px;
         height: 380px;
+    }
+    .rodape-titulo{
+        font-size: 32px;
+    }
+    .rodape-links {
+        font-size: 25px;
+    }
+    .item-link{
+        font-size: 25px;
     }
 }
