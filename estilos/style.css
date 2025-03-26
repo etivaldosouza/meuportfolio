@@ -23,16 +23,29 @@ body{
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+    padding: 24px;   
+}
+
+ .fa-bars{
+
     
+    align-items: center;
+    cursor: pointer;
+}
+.fa-bars:hover{
+    color: #0d0d0d;
+    background-color: #ffffff;
+    
+    text-align: center;
 }
 
 .cabecalho-menu{
-    display: flex;
+    display: none; /* faz sumir o menu*/
     flex-flow: column nowrap;
     gap: 10px;
     
 }
+
 
 .cabecalho-menu-item{
     color: #ffffff;
@@ -277,6 +290,5 @@ body{
 }
 
 .item-link:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }

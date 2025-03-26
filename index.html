@@ -13,7 +13,8 @@
 <body>
     <header id="cabecalho">
         <img class="cabecalho-imagem" src="imagens/logo1_maior.png" alt="logoincode">
-        <nav class="cabecalho-menu">
+        <i id="burguer" class="fa-solid fa-bars fa-2x"></i>
+        <nav id="menu" class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="#conteudo-principal-titulo">Página Inicial</a>
             <a class="cabecalho-menu-item" href="#skill">Skill</a>
             <a class="cabecalho-menu-item" href="#projetos">Laboratório</a>
@@ -144,5 +145,14 @@
             
         </div>
     </footer>
+    <script>
+        
+        var b = document.querySelector('#burguer')
+        b.addEventListener('click', clicar)
+
+        function clicar(){
+            menu.style.display = 'flex'
+        }
+    </script>
 </body>
 </html>
