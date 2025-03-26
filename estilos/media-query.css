@@ -99,14 +99,14 @@ grandes telas: acima de 1200px
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
+        
     }
     .conteudo-secundario-cards {
         width: 30%;
         max-width: 500px;
-        height: 350px;
+        height: 450px;
         position: relative;
-        bottom: 100px;
-        
+        bottom: 100px;        
     }
     .conteudo-principal-titulo{
         font-size: 48px;
@@ -124,7 +124,7 @@ grandes telas: acima de 1200px
     }
 
     .conteudo-secundario-paragrafo{
-        font-size: 25px;
+        font-size: 21px;
         line-height: 35px;
         margin-left: 60px;
         margin-right: 60px;
@@ -132,38 +132,40 @@ grandes telas: acima de 1200px
         
     }
     .conteudo-secundario-cards-titulo{
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .conteudo-secundario-cards-paragrafo{
         font-size:20px;
     }
-
+    
+  
     .projetos-titulo{
-        font-size: 28PX;
+        font-size: 22PX;
     }
     .projetos-paragrafo{
-        font-size: 22px;
+        font-size: 18px;
+        margin: 10px;
+        word-wrap: break-word;
+        
+             
     }
+
     .projetos-paragrafo > a{
-        font-size: 23px;
+        font-size: 20px;
     }
     .projetos-container-cards{
         display: flex;
         flex-flow: row wrap;
-        justify-content: center; 
-        align-items: center; 
-        width: 90%;
-        height: auto;
-        margin: auto;
-        
-           
+        justify-content: center;
+         
     }
 
     .projetos-cards{
         width: 30%;
         max-width: 500px;
         height: 380px;
+        
     }
     .rodape-titulo{
         font-size: 32px;

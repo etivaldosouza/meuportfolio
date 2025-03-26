@@ -176,16 +176,18 @@ body{
     margin-bottom: 100px;
 }
 
+
+.skill-titulo{
+    font-size: 38px;
+    font-family: "Ubuntu Mono", monospace;
+}
 .projetos-container-cards{
     display: flex;
     flex-flow: column;
     align-items: center;
     gap: 10px;
 }
-.skill-titulo{
-    font-size: 38px;
-    font-family: "Ubuntu Mono", monospace;
-}
+
 .projetos-cards{
     background-color: #2D82B7;
     width: 80%;
